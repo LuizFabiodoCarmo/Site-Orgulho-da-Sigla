@@ -1,0 +1,35 @@
+*{
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', Verdana, sans-serif;
+    color: black;
+    background-color: rgb(243, 208, 7);  
+}
+.cont{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mostrar{
+    display: none;
+  }
+  
+  .passar_mouse:hover #mostrar{
+    display:block;
+    }
+
+
+
+.marg-r{
+    margin-right: 300px;
+    }
+    
+    .marg-l{
+    margin-left: 300px ;
+    }
+
+    .alinha{
+        display: flex;
+        
+    }
