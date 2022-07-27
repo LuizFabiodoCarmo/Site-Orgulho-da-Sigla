@@ -1,35 +1,79 @@
-*{
-    font-family: 'Lucida Sans Regular', 'Lucida Grande', Verdana, sans-serif;
-    color: black;
-    background-color: rgb(243, 208, 7);  
+.colorM{
+    background-color: #b913ae;
+    margin: 10px;
+    border-radius:20px 20px 0px 0px;
+    border-color: #FFE70E;
 }
-.cont{
-    display: flex;
-    flex-flow: row;
-    align-items: center;
+
+.textC{
+ text-decoration-color: #FFE70E;  
+ lighting-color: #FFE70E; 
+}
+
+.colorRoda{
+    background-color: #b913ae;
+    margin: 10px;
+    border-radius:0px 0px 20px 20px;
+    border-color: #FFE70E;
+
+}
+
+.icon{
+    font-size: 30pt;
+    color: #FFE70E;
+    padding: 10px;
+    }
+
+.car{
+    border-radius: 50px;
+}    
+
+.img{
+    size: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.IconC{
+    justify-items: center;
     justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 
-.mostrar{
-    display: none;
-  }
-  
-  .passar_mouse:hover #mostrar{
-    display:block;
-    }
+.cardS{
+border-radius: 50px;
+}
 
+.imgC{
+    size: 150px;
+    width: 150px;
+    height: 150px;
+}
 
-
-.marg-r{
-    margin-right: 300px;
-    }
-    
-    .marg-l{
-    margin-left: 300px ;
-    }
-
-    .alinha{
-        display: flex;
-        
-    }
+.ImgL{
+    box-shadow: 7px 7px 5px 5px #FF1616; 
+}
+.ImgG{
+    box-shadow: 7px 7px 5px 5px #FF7F16 ; 
+}
+.ImgB{
+    box-shadow: 7px 7px 5px 5px #FFE70E; 
+}
+.ImgT{
+    box-shadow: 7px 7px 5px 5px #FF067D; 
+}
+.ImgQ{
+    box-shadow: 7px 7px 5px 5px #C5EB11; 
+}
+.ImgI{
+    box-shadow: 7px 7px 5px 5px#00C2CB; 
+}
+.ImgA{
+    box-shadow: 7px 7px 5px 5px #004AAD; 
+}
+.ImgP{
+    box-shadow: 7px 7px 5px 5px#00A24F; 
+}
+.ImgM{
+    box-shadow: 7px 7px 5px 5px #8E12B2; 
+}
