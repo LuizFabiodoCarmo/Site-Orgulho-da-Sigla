@@ -3,6 +3,7 @@
     margin: 10px;
     border-radius:20px 20px 0px 0px;
     border-color: #FFE70E;
+    border: 4px solid #00C2CB;
 }
 
 .textC{
@@ -15,7 +16,7 @@
     margin: 10px;
     border-radius:0px 0px 20px 20px;
     border-color: #FFE70E;
-
+    border: 4px solid #00C2CB;
 }
 
 .icon{
@@ -76,4 +77,16 @@ border-radius: 50px;
 }
 .ImgM{
     box-shadow: 7px 7px 5px 5px #8E12B2; 
+}
+
+/* .teste{   
+ box-sizing: border-box;
+position: absolute;
+width: 123px;
+height: 117px; 
+border: 4px solid #00C2CB;
+} */
+
+.linha{
+    border: 2px solid #7a8383;
 }
